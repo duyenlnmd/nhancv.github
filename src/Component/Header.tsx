@@ -6,9 +6,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <header className="App-header">
-        <div data-aos="fade-down" data-aos-duration="3000">
-          <Particles className="App-particle" />
-        </div>
+        <Particles className="App-particle" />
         <div className="App-header-body" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="3000">
           <div className="App-logo" />
           <div className="App-header-info">
