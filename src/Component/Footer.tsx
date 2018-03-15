@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
         <footer className="App-footer">
           <div>
             <br />
-            <small>---- Nhan Cao ----</small>
+            <small>---- @2018 Nhan Cao ----</small>
             <br />
           </div>
           <br />
@@ -32,6 +32,9 @@ export default class Footer extends React.Component {
             </a>/
             <a href="/product/Android_Style.xml" download={true}>
               Android Style
+            </a>/
+            <a href="/product/nhancv.pdf" target="_blank">
+              Resume (Pdf)
             </a>
             /
           </div>
