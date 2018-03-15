@@ -24,14 +24,14 @@ export default class App extends React.Component {
             <h2>Abstract</h2>
             <p>
               A forward thinking developer offering more than three years of experience building, integrating, testing
-              and supporting Android applications for mobile and tablet devices.
+              manage system. Especially mobile applications.
             </p>
             <b>Highlights</b>
             <br />
             <ul>
               <li>Good logic thinking skill</li>
               <li>Known for writing efficient, maintainable and reusable code</li>
-              <li>Proficient in design, data structures, problem-solving, and debugging</li>
+              <li>Proficient in design pattern, algorithm data structures, problem-solving, and debugging</li>
               <li>Eagerness to embrace scalability, reliability, and performance challenges</li>
               <li>Deep understanding of the Android Java</li>
               <li>Passion for building products that users love.</li>
@@ -105,7 +105,7 @@ export default class App extends React.Component {
               <div>Company: BeeSightSoft, VietNam</div>
               <div>Description:</div>
               <p>
-                Support, research and development, pilot and and transfer to developer.
+                Team leader, Scrum master, Support, research and development, pilot and and transfer to developer.
               </p>
             </div>
             <div>-----</div>
@@ -125,9 +125,9 @@ export default class App extends React.Component {
             <div>
               <h6>Mobile</h6>
               <p>
-                Android: 
-                  MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid, jUnit, Espresso, Picasso,
-                  Gson, Retrofit2, Realm, GGMaps, FB, G+ plugins, Fabric, Mint, Log entries, BLE, NFC,
+                Android: Gradle Groovy, Kotlin, Java.<br/>
+                  MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso,
+                  Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC,
                   Amazon web services
               </p>
               <p>
@@ -144,10 +144,8 @@ export default class App extends React.Component {
                 Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs)
               </p>
               <p>
-                Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css
-              </p>
-              <p>
-                Others: GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
+                Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, 
+                GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
               </p>
               <div>-----</div>
               <h6>OS/System</h6>
@@ -163,6 +161,16 @@ export default class App extends React.Component {
               <h6>Embeded</h6>
               <p>
                 Arduino, ARM, Raspberry Pi
+              </p>
+              <div>-----</div>
+              <h6>Version control</h6>
+              <p>
+                Master git: GitHub, GitLab, Bitbucket
+              </p>
+              <div>-----</div>
+              <h6>Others</h6>
+              <p>
+                Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI
               </p>
             </div>
           </section>
