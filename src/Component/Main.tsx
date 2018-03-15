@@ -185,7 +185,7 @@ export default class Main extends React.Component {
             <Skill
               header={'Web'}
               description={`
-              Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs)
+              Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd)
               Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
             `}
             />
@@ -216,7 +216,7 @@ export default class Main extends React.Component {
             <Skill
               header={'Others'}
               description={`
-              Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI
+              Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia)
             `}
             />
           </div>
