@@ -6,8 +6,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div data-aos="fade-up" data-aos-duration="500">
-        <Header/>
-        <Main/>
+        <Header />
+        <Main />
         <Footer />
       </div>
     )

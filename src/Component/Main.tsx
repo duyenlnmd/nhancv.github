@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import { Container } from 'reactstrap'
 import './Main.css'
 
 // @nhancv: Experience Block
@@ -38,8 +38,7 @@ class Skill extends React.Component<SkillProps, {}> {
     return (
       <div>
         <h5>{header}</h5>
-        <p>{description.split('\n').map((item, i) => <p key={i}>{item}</p>)}</p>
-        {/* <div dangerouslySetInnerHTML={{ __html: description }} /> */}
+        <div dangerouslySetInnerHTML={{ __html: description }} />
         <div>-----</div>
       </div>
     )
@@ -105,7 +104,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <Simple
             header={'Award'}
             description={`
@@ -142,7 +141,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Experience</h2>
           <Experience
             header={'24/02/2015 – 31/12/2015'}
@@ -171,52 +170,74 @@ export default class Main extends React.Component {
         </section>
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Skills</h2>
+          <p>
+            <i>Not just a list. It's real.</i>
+          </p>
+
           <div>
             <Skill
               header={'Mobile'}
               description={`
-              Android: Gradle Groovy, Kotlin, Java.
-              MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services.
-              
-              ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable.
-              Flutter: .... come soon ...
+              <p>
+                Android: Gradle Groovy, Kotlin, Java.<br />
+                MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services.
+              <p>
+                ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable.
+              </p>
+              <p>
+                Flutter: .... come soon ...
+              </p>
             `}
             />
             <Skill
               header={'Web'}
               description={`
-              Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd)
-              Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
+              <p>
+                Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd)
+              </p>
+              <p>
+                Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
+              </p>
             `}
             />
             <Skill
               header={'OS/System'}
               description={`
-              macOS, Linux, Windows, Nginx, Apache
+              <p>
+                macOS, Linux, Windows, Nginx, Apache
+              </p>
             `}
             />
             <Skill
               header={'Database'}
               description={`
-              MySql, Sql Server, Sqlite, Realm, Postgres, DynamoDb
+              <p>
+                MySql, Sql Server, Sqlite, Realm, Postgres, DynamoDb
+              </p>
             `}
             />
             <Skill
               header={'Embeded'}
               description={`
-              Atmel, Arduino, ARM, Raspberry Pi
+              <p>
+                Atmel, Arduino, ARM, Raspberry Pi
+              </p>
             `}
             />
             <Skill
               header={'Version control'}
               description={`
-              Master git: GitHub, GitLab, Bitbucket
+              <p>
+                Master git: GitHub, GitLab, Bitbucket
+              </p>
             `}
             />
             <Skill
               header={'Others'}
               description={`
-              Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia)
+              <p>
+                Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia)
+              </p>
             `}
             />
           </div>
@@ -252,7 +273,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <Simple
             header={'Social'}
             description={`
