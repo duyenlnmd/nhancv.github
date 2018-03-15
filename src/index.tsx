@@ -9,6 +9,6 @@ ReactDOM.render(<App />, document.getElementById('root') as HTMLElement)
 registerServiceWorker()
 
 // @nhancv: Scroll animation
-import './Lib/aos.css'
+import './Resource/aos.css'
 const AOS = require('aos')
 AOS.init()

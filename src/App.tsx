@@ -5,7 +5,7 @@ import './App.css'
 export default class App extends React.Component {
   render() {
     return (
-      <div data-aos="fade-up" data-aos-duration="1000">
+      <div data-aos="fade-up" data-aos-duration="500">
         <Header/>
         <Main/>
         <Footer />
