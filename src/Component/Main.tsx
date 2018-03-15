@@ -156,16 +156,16 @@ export default class Main extends React.Component {
             description={`Support technical issues, development tasks, technical tasks, helping in recruitment of new people, building of systems and rules, clean system code, support and solve stuck in team, supervisor role.`}
           />
           <Experience
+            header={'01/04/2017 - 01/01/2018'}
+            title={'Software Consultant'}
+            company={'Society for Health Information Systems Programmes, India (Remote)'}
+            description={`Provide consultancy service to HISP regarding Software Development on various projects located outside India.`}
+          />
+          <Experience
             header={'27/08/2016 - present'}
             title={'R&D Mobile'}
             company={'BeeSightSoft, VietNam'}
             description={`Team leader, Scrum master, Support, research and development, pilot and and transfer to developer.`}
-          />
-          <Experience
-            header={'01/04/2017 - present'}
-            title={'Software Consultant'}
-            company={'Society for Health Information Systems Programmes, India (Remote)'}
-            description={`Provide consultancy service to HISP regarding Software Development on various projects located outside India.`}
           />
         </section>
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
