@@ -68,7 +68,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <Container className="App-body">
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
           <Simple
             header={'Abstract'}
             description={`
@@ -90,7 +90,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <Simple
             header={'Education'}
             description={`
@@ -105,7 +105,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
           <Simple
             header={'Award'}
             description={`
@@ -129,7 +129,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
           <Simple
             header={'Publication'}
             description={`
@@ -142,7 +142,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
           <h2>Experience</h2>
           <Experience
             header={'24/02/2015 – 31/12/2015'}
@@ -169,7 +169,7 @@ export default class Main extends React.Component {
             description={`Provide consultancy service to HISP regarding Software Development on various projects located outside India.`}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Skills</h2>
           <div>
             <Skill
@@ -221,7 +221,7 @@ export default class Main extends React.Component {
             />
           </div>
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
           <Simple
             header={'Certification'}
             description={`
@@ -240,7 +240,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <Simple
             header={'Hobby'}
             description={`
@@ -252,7 +252,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-left" data-aos-duration="4000">
           <Simple
             header={'Social'}
             description={`
@@ -297,7 +297,7 @@ export default class Main extends React.Component {
             `}
           />
         </section>
-        <section className="App-section">
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
           <Simple
             header={'Contact'}
             description={`
