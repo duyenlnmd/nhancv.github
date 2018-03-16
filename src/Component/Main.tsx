@@ -171,7 +171,7 @@ export default class Main extends React.Component {
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Skills</h2>
           <p>
-            <i>Not just a list. It's real.</i>
+            <i>Not just a list. It's Real.</i>
           </p>
 
           <div>

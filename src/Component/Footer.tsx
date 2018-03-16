@@ -34,7 +34,7 @@ export default class Footer extends React.Component {
               Android Style
             </a>/
             <a href="/product/nhancv.pdf" target="_blank">
-              Resume (Pdf)
+              Resume-Pdf
             </a>
             /
           </div>
