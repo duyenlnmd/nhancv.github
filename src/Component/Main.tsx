@@ -179,21 +179,23 @@ export default class Main extends React.Component {
               header={'Mobile'}
               description={`
               <p>
-                Android: Gradle Groovy, Kotlin, Java.<br />
-                MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services.
-              <p>
-                ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable.
+                Native Android: Gradle Groovy, Kotlin, Java. MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services.
               </p>
               <p>
-                Flutter: .... come soon ...
+                Cross-platform:
               </p>
+                  <ul>
+                    <li>Ionic: Angular.</li>
+                    <li>ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable.</li>
+                    <li>Flutter: Dart, Material Design.</li>
+                  </ul>
             `}
             />
             <Skill
               header={'Web'}
               description={`
               <p>
-                Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd)
+                Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd, Smack)
               </p>
               <p>
                 Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
