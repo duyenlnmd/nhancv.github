@@ -147,25 +147,25 @@ export default class Main extends React.Component {
             header={'24/02/2015 – 31/12/2015'}
             title={'Android Developer'}
             company={'Left Coast Logic, VietNam'}
-            description={`Develop and maintain the E-commerce products for Japan market on Android mobile and table: Loyalty Program, Lottery, Point, Payment, NFC, BLE/Beacon iOS.`}
+            description={`Develop and maintain the E-commerce products for Japan market on Android mobile and table: Loyalty Program, Lottery, Point, Payment, NFC, BLE/Beacon iOS`}
           />
           <Experience
             header={'01/01/2016 - 01/05/2016'}
             title={'Software Consultant'}
             company={'Society for Health Information Systems Programmes, India (On site)'}
-            description={`Support technical issues, development tasks, technical tasks, helping in recruitment of new people, building of systems and rules, clean system code, support and solve stuck in team, supervisor role.`}
+            description={`Support technical issues, development tasks, technical tasks, helping in recruitment of new people, building of systems and rules, clean system code, support and solve stuck in team, supervisor role`}
           />
           <Experience
             header={'01/04/2017 - 01/01/2018'}
             title={'Software Consultant'}
             company={'Society for Health Information Systems Programmes, India (Remote)'}
-            description={`Provide consultancy service to HISP regarding Software Development on various projects located outside India.`}
+            description={`Provide consultancy service to HISP regarding Software Development on various projects located outside India`}
           />
           <Experience
             header={'27/08/2016 - present'}
             title={'R&D Mobile'}
             company={'BeeSightSoft, VietNam'}
-            description={`Team leader, Scrum master, Support, research and development, pilot and and transfer to developer.`}
+            description={`Team leader, Scrum master, Support, research and development, pilot and and transfer to developer`}
           />
         </section>
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
@@ -179,15 +179,15 @@ export default class Main extends React.Component {
               header={'Mobile'}
               description={`
               <p>
-                Native Android: Gradle Groovy, Kotlin, Java. MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services.
+                Native Android: Gradle Groovy, Kotlin, Java, MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services
               </p>
               <p>
                 Cross-platform:
               </p>
                   <ul>
-                    <li>Ionic: Angular.</li>
-                    <li>ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable.</li>
-                    <li>Flutter: Dart, Material Design.</li>
+                    <li>Ionic: Angular</li>
+                    <li>ReactNative: ES6, Redux, Ignite, Nativebase, Reactotron, Immutable</li>
+                    <li>Flutter: Dart, Material Design</li>
                   </ul>
             `}
             />
