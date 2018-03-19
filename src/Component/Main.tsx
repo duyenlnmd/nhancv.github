@@ -195,7 +195,7 @@ export default class Main extends React.Component {
               header={'Web'}
               description={`
               <p>
-                Server: PHP (Laravel/Lumen), Java EE, C Embeded, NodeJs (ExpressJs), WebRTC, Kurento, Socket.io, XMPP (Ejabberd, Smack)
+                Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy
               </p>
               <p>
                 Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
