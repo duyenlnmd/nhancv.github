@@ -171,7 +171,7 @@ export default class Main extends React.Component {
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Skills</h2>
           <p>
-            <i>Not just a list. It's Real.</i>
+            <i>Not just a list. It's Real. Ref to my Github page</i>
           </p>
 
           <div>
@@ -314,6 +314,12 @@ export default class Main extends React.Component {
                   Stackoverflow:
                   <a href="https://stackoverflow.com/users/5855770/nhan-cao" target="_blank">
                     nhan-cao
+                  </a>
+                </p>
+                <p>
+                  NpmJs:
+                  <a href="https://www.npmjs.com/~nhancv" target="_blank">
+                    ~nhancv
                   </a>
                 </p>
               </div>
