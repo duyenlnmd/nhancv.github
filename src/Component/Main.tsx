@@ -203,6 +203,14 @@ export default class Main extends React.Component {
             `}
             />
             <Skill
+              header={'Blockchain'}
+              description={`
+              <p>
+                Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
+              </p>
+            `}
+            />
+            <Skill
               header={'OS/System'}
               description={`
               <p>
