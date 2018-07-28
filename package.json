@@ -1,8 +1,8 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-    "private": true,
-    "homepage": "/home",
+  "private": true,
+  "homepage": "/home",
   "dependencies": {
     "aos": "^2.2.0",
     "bootstrap": "^4.0.0",
