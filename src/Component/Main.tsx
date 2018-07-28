@@ -321,7 +321,7 @@ export default class Main extends React.Component {
                 </p>
                 <p>
                   Stackoverflow:
-                  <a href="https://stackoverflow.com/users/5855770/nhan-cao" target="_blank">
+                  <a href="https://stackoverflow.com/cv/nhancv" target="_blank">
                     nhan-cao
                   </a>
                 </p>
