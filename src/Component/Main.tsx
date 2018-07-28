@@ -73,7 +73,7 @@ export default class Main extends React.Component {
             description={`
               <div>
                 <p>
-                  A forward thinking developer offering more than three years of experience building, integrating, testing manage system. Especially mobile applications.
+                  A forward-thinking developer offering more than three years of experience building, integrating, testing manage system. Especially in mobile applications.
                 </p>
                 <b>Highlights</b>
                 <br />
