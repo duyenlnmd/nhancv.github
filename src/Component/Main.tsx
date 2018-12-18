@@ -73,14 +73,14 @@ export default class Main extends React.Component {
             description={`
               <div>
                 <p>
-                  A forward-thinking developer offering more than three years of experience building, integrating, testing manage system. Especially in mobile applications.
+                  A forward-thinking developer offering more than four years of experience building, integrating, testing and system management.
                 </p>
                 <b>Highlights</b>
                 <br />
                 <ul>
                   <li>Good logic thinking skill</li>
                   <li>Known for writing efficient, maintainable and reusable code</li>
-                  <li>Proficient in design pattern, algorithm data structures, problem-solving, and debugging</li>
+                  <li>Proficient in design pattern, algorithm data structures, problem-solving and debugging</li>
                   <li>Eagerness to embrace scalability, reliability, and performance challenges</li>
                   <li>Deep understanding of the Android Java</li>
                   <li>Passion for building products that users love.</li>
@@ -199,7 +199,7 @@ export default class Main extends React.Component {
                 Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy
               </p>
               <p>
-                Frontend: Angular, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
+                Frontend: Angular7, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
               </p>
             `}
             />
@@ -208,6 +208,20 @@ export default class Main extends React.Component {
               description={`
               <p>
                 Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
+              </p>
+              <p>
+                Hyperledger Fabric: Backend with Java sdk, chaincode with golang and deploy via Docker
+              </p>
+            `}
+            />
+            <Skill
+              header={'AI'}
+              description={`
+              <p>
+                Statistic, Data Mining, Machine learning and Deep learning
+              </p>
+              <p>
+                Env: python, colab, nteract, kaggle, orange3, opencv
               </p>
             `}
             />
