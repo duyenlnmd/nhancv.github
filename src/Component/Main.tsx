@@ -1,3 +1,4 @@
+import * as request from 'request'
 import * as React from 'react'
 import { Container } from 'reactstrap'
 import './Main.css'
@@ -172,7 +173,7 @@ export default class Main extends React.Component {
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Skills</h2>
           <p>
-            <i>Not just a list. It's Real. Ref to my Github page</i>
+            <i>Not just a list.</i>
           </p>
 
           <div>
@@ -293,7 +294,7 @@ export default class Main extends React.Component {
               <div>
                 <p>Algorithm</p>
                 <p>Read IT books</p>
-                <p>Travel</p>
+                <p>Your challenge</p>
               </div>
             `}
           />
