@@ -8,20 +8,25 @@
 
   .App-header-body {
     height: 100%;
+    @media (min-width: 992px) {
+      width: 60%;
+    }
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
 
     .App-header-info {
       flex-direction: column;
-      text-align: center;
       justify-content: center;
 
       .App-title {
+        font-weight: bold;
+        font-size: 2.8rem;
       }
 
       .App-subtitle {
-        font-size: 1em;
+        font-size: medium;
         margin-bottom: 0;
         margin-top: 0;
         font-style: italic;

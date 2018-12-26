@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
         <footer className="App-footer">
           <div>
             <br />
-            <small>---- @2018 Nhan Cao ----</small>
+            <small>---- @2019 Nhan Cao ----</small>
             <br />
           </div>
           <br />
@@ -18,10 +18,7 @@ export default class Footer extends React.Component {
             <a href="/product/order/" target="_blank">
               Order
             </a>/
-            <a href="/product/rxjava/" target="_blank">
-              RxJava
-            </a>/
-            <a href="/product/nqrcode/?d=data" target="_blank">
+            <a href="/product/nqrcode/?d=https://nhancv.github.io/product/nhancv.pdf" target="_blank">
               NQRcode
             </a>/
             <a href="/product/Android_Style.xml" download={true}>

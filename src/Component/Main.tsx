@@ -1,4 +1,3 @@
-import * as request from 'request'
 import * as React from 'react'
 import { Container } from 'reactstrap'
 import './Main.css'
@@ -79,11 +78,12 @@ export default class Main extends React.Component {
                 <b>Highlights</b>
                 <br />
                 <ul>
-                  <li>Good logic thinking skill</li>
-                  <li>Known for writing efficient, maintainable and reusable code</li>
-                  <li>Proficient in design pattern, algorithm data structures, problem-solving and debugging</li>
-                  <li>Eagerness to embrace scalability, reliability, and performance challenges</li>
-                  <li>Deep understanding of the Android Java</li>
+                  <li>Good logic thinking skill.</li>
+                  <li>Known for writing efficient, maintainable and reusable code.</li>
+                  <li>Proficient in design pattern, algorithm data structures, problem-solving and debugging.</li>
+                  <li>Eagerness to embrace scalability, reliability, and performance challenges.</li>
+                  <li>Positivity and responsibility in words, communication, and feedback.</li>
+                  <li>Time balance and creative management.</li>
                   <li>Passion for building products that users love.</li>
                 </ul>
               </div>
@@ -294,7 +294,7 @@ export default class Main extends React.Component {
               <div>
                 <p>Algorithm</p>
                 <p>Read IT books</p>
-                <p>Your challenge</p>
+                <p>Your challenges</p>
               </div>
             `}
           />

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import './Header.css'
+import { Container } from 'reactstrap'
 
 export default class Header extends React.Component {
   render() {
@@ -10,13 +11,13 @@ export default class Header extends React.Component {
         data-aos-anchor-placement="center-center"
         data-aos-duration="3000"
       >
-        <div className="App-header-body">
+        <Container className="App-header-body">
           <div className="App-header-info">
             <h2 className="App-title">Nhan Cao</h2>
-            <h2 className="App-subtitle">- Developer -</h2>
+            <h2 className="App-subtitle">Senior software developer</h2>
             <h2 className="App-subtitle">nhancv92@gmail.com</h2>
           </div>
-        </div>
+        </Container>
         <div className="App-line" />
       </header>
     )
