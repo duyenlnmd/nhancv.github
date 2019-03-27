@@ -73,7 +73,7 @@ export default class Main extends React.Component {
             description={`
               <div>
                 <p>
-                  A forward-thinking developer offering more than four years of experience building, integrating, testing and system management.
+                  A forward-thinking developer offering more than five years of experience building, integrating, optimizing, testing and system management.
                 </p>
                 <b>Highlights</b>
                 <br />
@@ -96,11 +96,14 @@ export default class Main extends React.Component {
             description={`
               <div>
                 <p>
-                B.Ce. (Honors) (Sept. 2010 – June. 2015): Computer Engineering, University of Information Technology,
-                VNU-HCM, Vietnam
+                  B.Ce. (Honors) (Sept. 2010 – June. 2015): Computer Engineering, University of Information Technology, VNU-HCM, Vietnam
                 </p>
                 <div>GPA: 3.84/4 (Rank: 1/120). Thesis score: 9.7/10</div>
                 <div>Thesis: SmartHome with Zigbee network</div>
+                <br/>
+                <div>
+                  Complete the Data Science Course (Nov 26, 2018 – Jan 29, 2019), Dr Tran Anh Tuan, Department of Maths & Computer Sciences, HCMUS.
+                </div>
               </div>
             `}
           />
@@ -165,7 +168,7 @@ export default class Main extends React.Component {
           <Experience
             header={'27/08/2016 - present'}
             title={'R&D Mobile'}
-            company={'BeeSightSoft, VietNam'}
+            company={'Beesight Soft, Vietnam'}
             description={`
             Team leader, project lead, scrum master, technical support & documentation, research and development.`}
           />
@@ -181,7 +184,7 @@ export default class Main extends React.Component {
               header={'Mobile'}
               description={`
               <p>
-                Native Android: Gradle Groovy, Kotlin, Java, MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services
+                Native Android: Gradle Groovy, Kotlin, Java. MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services
               </p>
               <p>
                 Cross-platform:
@@ -197,10 +200,10 @@ export default class Main extends React.Component {
               header={'Web'}
               description={`
               <p>
-                Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy
+                Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy, Spark, Hadoop, Kafka
               </p>
               <p>
-                Frontend: Angular7, React, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
+                Frontend: Angular, ReactJS, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
               </p>
             `}
             />
@@ -211,7 +214,11 @@ export default class Main extends React.Component {
                 Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
               </p>
               <p>
-                Hyperledger Fabric: Backend with Java sdk, chaincode with golang and deploy via Docker
+                Hyperledger Fabric: Backend with Java Sdk, chaincode with golang and deploy via Docker
+              </p>
+              </p>
+              <p>
+                Hyperledger Iroha: Android app, javascript wallet and Docker
               </p>
             `}
             />
@@ -222,7 +229,7 @@ export default class Main extends React.Component {
                 Statistic, Data Mining, Machine learning and Deep learning
               </p>
               <p>
-                Env: python, colab, nteract, kaggle, orange3, opencv
+                Env & tool: python, colab, nteract, kaggle, orange3, opencv, tensorflow, dlib, Google vision
               </p>
             `}
             />
@@ -254,7 +261,7 @@ export default class Main extends React.Component {
               header={'Version control'}
               description={`
               <p>
-                Master git: GitHub, GitLab, Bitbucket
+                Master of the Git: GitHub, GitLab, Bitbucket
               </p>
             `}
             />
@@ -262,7 +269,7 @@ export default class Main extends React.Component {
               header={'Others'}
               description={`
               <p>
-                Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia)
+                Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia), Tsung
               </p>
             `}
             />
@@ -280,9 +287,6 @@ export default class Main extends React.Component {
                 <p>JENESYS 2.0 - 2014</p>
                 <p>Agile Software Development with Scrum - 2014</p>
                 <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
-                <a href="https://goo.gl/avjkQL" target="_blank">
-                  [Link]
-                </a>
               </div>
             `}
           />
