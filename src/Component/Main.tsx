@@ -226,10 +226,10 @@ export default class Main extends React.Component {
               header={'AI'}
               description={`
               <p>
-                Statistic, Data Mining, Machine learning and Deep learning
+                Statistic, Data Mining, Machine learning and Deep learning, NPL, Bot
               </p>
               <p>
-                Env & tool: python, colab, nteract, kaggle, orange3, opencv, tensorflow, dlib, Google vision
+                Env & tool: python, Colab, nteract, Kaggle, Orange3, Opencv, Tensorflow, Dialogflow, dlib, Firebase ML
               </p>
             `}
             />
@@ -359,6 +359,9 @@ export default class Main extends React.Component {
             header={'Contact'}
             description={`
               <div>
+                <p>
+                  Blog: <a href="http://nhancv.com" target="_blank">nhancv.com</a>
+                </p>
                 <p>
                   Email: <a href="mailto: nhancv92@gmail.com">nhancv92@gmail.com</a>
                 </p>
