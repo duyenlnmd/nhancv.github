@@ -21,8 +21,8 @@ export default class Footer extends React.Component {
             <a href="/product/nqrcode/?d=https://nhancv.github.io/product/nhancv.pdf" target="_blank">
               NQRcode
             </a>/
-            <a href="/product/Android_Style.xml" download={true}>
-              Android Style
+            <a href="/product/NJIdea.xml" download={true}>
+              NJIdea
             </a>/
             <a href="/product/nhancv.pdf" target="_blank">
               Resume-Pdf
