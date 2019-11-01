@@ -172,14 +172,14 @@ export default class Main extends React.Component {
                         company={'Left Coast Logic, VietNam'}
                         description={` 
               <p>
-                Develop and maintain the E-commerce products for Japan market on Android mobile and table: Loyalty Program, Lottery, Save or Exchange Point, Payment, NFC, BLE/Beacon
+                Develop and maintain the E-commerce products for Japan market on Android mobile and tablet: Loyalty Program, Lottery, Save or Exchange Point, Payment, NFC, BLE/Beacon
               </p>
               <p>
                 Application
               </p>
                   <ul>
-                    <li>Android merchant: This application installed on a tablet for merchant to manage employees and booking from user</li>
-                    <li>Android user: This application installed on a phone for user to book and save point</li>
+                    <li>Android merchant: This application installed on a tablet for a merchant to manage employees and booking from user</li>
+                    <li>Android user: This application installed on a phone for the user to book and savepoint</li>
                   </ul>
                         `}
                     />
@@ -189,13 +189,13 @@ export default class Main extends React.Component {
                         company={'Society for Health Information Systems Programmes, India (On site)'}
                         description={`
               <p>
-                Supervisor, technical support, development and technical quality assessment, improve the development process.
+                Supervisor, technical support, development, and technical quality assessment, improve the development process.
               </p>
               <p>
                 Application
               </p>
                   <ul>
-                    <li>DHIS2 Core: Support implement to get security certificate</li>
+                    <li>DHIS2 Core: Support implement to get a security certificate</li>
                     <li>DHIS2 Report: Support team to solve stuck in development</li>
                     <li>DHIS2 Android capture: Implement android project for data capture</li>
                   </ul>
@@ -207,13 +207,13 @@ export default class Main extends React.Component {
                         company={'RWD.sg, Singapore'}
                         description={`
              <p>
-                Develop android application to get cheapest price on market
+                Develop an android application to get cheapest price on the market
              </p>
              <p>
                 Application
              </p>
                   <ul>
-                    <li>Android wise price: Get cheapest price on market using almost Amazon web services such as DynamoDB, S3, SES, SNS, Mobile Hub, Cognito and Lamda</li>
+                    <li>Android wise price: Get cheapest price on the market using almost Amazon web services such as DynamoDB, S3, SES, SNS, Mobile Hub, Cognito and Lamda</li>
                   </ul>
                         `}
                     />
@@ -239,7 +239,7 @@ export default class Main extends React.Component {
                         company={'Beesight Soft, Vietnam'}
                         description={`
              <p>
-                Team leader, project lead, scrum master, technical support & documentation, research and development.
+                Team leader, project lead, scrum master, technical support & documentation, research, and development.
              </p>
              <p>
                 Training members
@@ -260,14 +260,14 @@ export default class Main extends React.Component {
                     <li>OpenCV</li>
                     <li>Blockchain</li>
                     <li>Face recognition</li>
-                    <li>Chat bot</li>
+                    <li>Chatbot</li>
                     <li>Recommendation system</li>
                   </ul>
              <p>
                 Application
               </p>
                   <ul>
-                    <li>Android FitAccess: Application for gym, apply chat using XMPP</li>
+                    <li>Android FitAccess: Application for the gym, apply chat using XMPP</li>
                     <li>Android Socialoop: Social network, video effect</li>
                     <li>Android FeedMe: Exchange point, delivery</li>
                     <li>Android Tacko: Implement an online exchange market</li>
@@ -277,7 +277,7 @@ export default class Main extends React.Component {
                     <li>React native Taxbase: Personal Tax management</li>
                     <li>Blockchain MVP: Medical testing management using Hyperledger Fabric</li>
                     <li>Flutter Beemon: Project monitor</li>
-                    <li>Android Getogeda: Realtime game about face mask, video call, effect on voice</li>
+                    <li>Android Getogeda: Realtime game about face mask, video call, the effect on voice</li>
                     <li>Android Moblize: Social network, oil and gas tracking</li>
                   </ul>
                         `}
