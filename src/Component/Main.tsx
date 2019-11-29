@@ -76,7 +76,7 @@ export default class Main extends React.Component {
                         description={`
               <div>
                 <p>
-                  A forward-thinking developer offering more than five years of experience building, integrating, optimizing, testing and system management.
+                  A forward-thinking man passed several positions with wide knowledge cover almost aspect of the IT field, design a solution that fulfills the information and data architecture requirements. These technologies cover the entire life cycle of design, development, testing, deployment, maintenance, performance tuning, and user support.
                 </p>
                 <b>Highlights</b>
                 <br />
@@ -88,6 +88,10 @@ export default class Main extends React.Component {
                   <li>Positivity and responsibility in words, communication, and feedback.</li>
                   <li>Time balance and creative management.</li>
                   <li>Passion for building products that users love.</li>
+                  <li>Experienced in software design and application architectures with high security and performance optimization.</li>
+                  <li>Strong at source code management, continuous integration, and continuous deployment.</li>
+                  <li>Experienced and good knowledge of full-stack development e.g web front-end, backend-end to mobile and system.</li>
+                  <li>Experienced in modern knowledge about Machine Learning, Artificial Intelligence, and Blockchain.</li>
                 </ul>
               </div>
             `}
@@ -259,7 +263,10 @@ export default class Main extends React.Component {
                     <li>XMPP with Ejabberd</li>
                     <li>OpenCV</li>
                     <li>Blockchain</li>
+                    <li>Ethereum smartcontract</li>
+                    <li>Omni USDT exchange</li>
                     <li>Face recognition</li>
+                    <li>Face id</li>
                     <li>Chatbot</li>
                     <li>Recommendation system</li>
                   </ul>
@@ -324,11 +331,33 @@ export default class Main extends React.Component {
                 Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
               </p>
               <p>
-                Hyperledger Fabric: Backend with Java Sdk, chaincode with golang and deploy via Docker
-              </p>
+                Bitcoin: OMNI USDT exchange on bitcoin network
               </p>
               <p>
-                Hyperledger Iroha: Android app, javascript wallet and Docker
+                Hyperledger Fabric: Backend with Java Sdk, chaincode with golang and deploy via Docker
+              </p>
+              <p>
+                Hyperledger Iroha: Android app, Javascript wallet and Docker
+              </p>
+            `}
+                        />
+                        <Skill
+                            header={'Bot'}
+                            description={`
+              <p>
+                Wiki bot: use Dialogflow, NLP
+              </p>
+              <p>
+                Immovables bot: work as a real estate agent
+              </p>
+              <p>
+                Binary trading bot: automated trading with customizable strategy
+              </p>
+              <p>
+                OMNI USDT exchange bot: automated exchange OMNI USDT via telegram
+              </p>
+              <p>
+                Forex trading bot: signal alert, copy and automated trading with customizale strategy
               </p>
             `}
                         />
