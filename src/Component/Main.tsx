@@ -269,6 +269,8 @@ export default class Main extends React.Component {
                     <li>Face id</li>
                     <li>Chatbot</li>
                     <li>Recommendation system</li>
+                    <li>oVirt cloud KVM virtualization</li>
+                    <li>BPMN with Zeebe</li>
                   </ul>
              <p>
                 Application
@@ -317,7 +319,7 @@ export default class Main extends React.Component {
                             header={'Web'}
                             description={`
               <p>
-                Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy, Spark, Hadoop, Kafka
+                Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy, Spark, Hadoop, Kafka, ZeroMQ
               </p>
               <p>
                 Frontend: Angular, ReactJS, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
@@ -357,7 +359,10 @@ export default class Main extends React.Component {
                 OMNI USDT exchange bot: automated exchange OMNI USDT via telegram
               </p>
               <p>
-                Forex trading bot: signal alert, copy and automated trading with customizale strategy
+                ERC20 Token exchange bot: automated exchange Ethereum ERC20 Token via telegram
+              </p>
+              <p>
+                Forex trading bot (MQL4/MQL5): signal alert, copy and automated trading with customizale strategy
               </p>
             `}
                         />
@@ -376,7 +381,7 @@ export default class Main extends React.Component {
                             header={'OS/System'}
                             description={`
               <p>
-                macOS, Linux, Windows, Nginx, Apache
+                macOS, Linux, Windows, Nginx, Apache, KVM virtualization with oVirt
               </p>
             `}
                         />
@@ -384,7 +389,7 @@ export default class Main extends React.Component {
                             header={'Database'}
                             description={`
               <p>
-                MySql, Sql Server, Sqlite, Realm, Postgres, DynamoDb
+                MySql, Sql Server, Sqlite, Realm, Postgres, DynamoDb, MongoDB
               </p>
             `}
                         />
