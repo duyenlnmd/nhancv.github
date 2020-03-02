@@ -333,6 +333,9 @@ export default class Main extends React.Component {
                 Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
               </p>
               <p>
+                Tron: SmartContract, TRC20 Token, TRC10 Token
+              </p>
+              <p>
                 Bitcoin: OMNI USDT exchange on bitcoin network
               </p>
               <p>
@@ -356,13 +359,19 @@ export default class Main extends React.Component {
                 Binary trading bot: automated trading with customizable strategy
               </p>
               <p>
-                OMNI USDT exchange bot: automated exchange OMNI USDT via telegram
+                USDT exchange bot: automated fiat exchange USDT via telegram (support OMNI, ERC20, TRC20)
               </p>
               <p>
                 ERC20 Token exchange bot: automated exchange Ethereum ERC20 Token via telegram
               </p>
               <p>
-                Forex trading bot (MQL4/MQL5): signal alert, copy and automated trading with customizale strategy
+                Forex trading bot (MQL4/MQL5): signal alert, copy and automated trading with customizable strategy
+              </p>
+              <p>
+                Binance future signal and scalping: Get the signal from admin, the bot will auto split the range of entry price for dca, and auto take profit when reaching the target
+              </p>
+              <p>
+                Intermarket spread: Bot auto-detect intermarket spread and make an order to take a small profit.
               </p>
             `}
                         />
@@ -437,6 +446,12 @@ export default class Main extends React.Component {
                         description={`
               <div>
                 <p>
+                  Bloc:
+                  <a href="https://nhancv.com/" target="_blank">
+                    nhancv.com
+                  </a>
+                </p>
+                <p>
                   Github:
                   <a href="https://github.com/nhancv" target="_blank">
                     nhancv
@@ -450,8 +465,14 @@ export default class Main extends React.Component {
                 </p>
                 <p>
                   Upwork:
-                  <a href="https://www.upwork.com/fl/nhancao" target="_blank">
-                    nhancao
+                  <a href="https://www.upwork.com/o/profiles/users/~01a9bd982d453a6de1/" target="_blank">
+                    nhancv
+                  </a>
+                </p>
+                <p>
+                  Freelancer.com:
+                  <a href="https://www.freelancer.com/u/nhancv" target="_blank">
+                    nhancv
                   </a>
                 </p>
                 <p>
