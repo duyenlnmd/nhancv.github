@@ -509,9 +509,6 @@ export default class Main extends React.Component {
                         description={`
               <div>
                 <p>
-                  Blog: <a href="http://nhancv.com" target="_blank">nhancv.com</a>
-                </p>
-                <p>
                   Email: <a href="mailto: nhancv92@gmail.com">nhancv92@gmail.com</a>
                 </p>
                 <p>
