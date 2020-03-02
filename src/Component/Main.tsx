@@ -446,7 +446,7 @@ export default class Main extends React.Component {
                         description={`
               <div>
                 <p>
-                  Bloc:
+                  Blog:
                   <a href="https://nhancv.com/" target="_blank">
                     nhancv.com
                   </a>
