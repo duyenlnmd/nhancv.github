@@ -465,8 +465,8 @@ export default class Main extends React.Component {
                 </p>
                 <p>
                   Upwork:
-                  <a href="https://www.upwork.com/o/profiles/users/~01a9bd982d453a6de1/" target="_blank">
-                    nhancv
+                  <a href="https://www.upwork.com/fl/nhancao" target="_blank">
+                    Nhan Cao
                   </a>
                 </p>
                 <p>
