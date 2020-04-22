@@ -164,6 +164,7 @@ export default class Main extends React.Component {
                 <p>JENESYS 2.0 - 2014</p>
                 <p>Agile Software Development with Scrum - 2014</p>
                 <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
+                <p><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-04-21&ci=AWS01330542">AWS Certified Solutions Architect - Associate</a></p>
               </div>
             `}
                     />
@@ -174,7 +175,7 @@ export default class Main extends React.Component {
                         header={'24/02/2015 – 31/12/2015'}
                         title={'Android Developer'}
                         company={'Left Coast Logic, VietNam'}
-                        description={` 
+                        description={`
               <p>
                 Develop and maintain the E-commerce products for Japan market on Android mobile and tablet: Loyalty Program, Lottery, Save or Exchange Point, Payment, NFC, BLE/Beacon
               </p>
