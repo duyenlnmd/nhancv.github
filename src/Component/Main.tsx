@@ -165,6 +165,7 @@ export default class Main extends React.Component {
                 <p>Agile Software Development with Scrum - 2014</p>
                 <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
                 <p><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-04-21&ci=AWS01330542">AWS Certified Solutions Architect - Associate</a></p>
+                <p><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-06-16&ci=AWS01330542">AWS Certified Developer - Associate</a></p>
               </div>
             `}
                     />
