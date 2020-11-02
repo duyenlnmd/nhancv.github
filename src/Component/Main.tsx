@@ -18,7 +18,7 @@ class Experience extends React.Component<ExperienceProps, {}> {
             <div>
                 <h5>{header}</h5>
                 <div>{title}</div>
-                <div>{company}</div>
+                <div dangerouslySetInnerHTML={{__html: company}} />
                 <div>Description:</div>
                 <div dangerouslySetInnerHTML={{__html: description}}/>
                 <div>-----</div>
@@ -164,8 +164,9 @@ export default class Main extends React.Component {
                 <p>JENESYS 2.0 - 2014</p>
                 <p>Agile Software Development with Scrum - 2014</p>
                 <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
-                <p><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-04-21&ci=AWS01330542">AWS Certified Solutions Architect - Associate</a></p>
-                <p><a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-06-16&ci=AWS01330542">AWS Certified Developer - Associate</a></p>
+                <p><a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer - Associate</a></p>
+                <p><a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect - Associate</a></p>
+                <p><a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional</a></p>
               </div>
             `}
                     />
@@ -240,7 +241,7 @@ export default class Main extends React.Component {
                         `}
                     />
                     <Experience
-                        header={'27/08/2016 - present'}
+                        header={'27/08/2016 - 01/05/2020'}
                         title={'R&D Mobile'}
                         company={'Beesight Soft, Vietnam'}
                         description={`
@@ -291,6 +292,16 @@ export default class Main extends React.Component {
                     <li>Android Getogeda: Realtime game about face mask, video call, the effect on voice</li>
                     <li>Android Moblize: Social network, oil and gas tracking</li>
                   </ul>
+                        `}
+                    />
+                    <Experience
+                        header={'01/05/2020 - present'}
+                        title={'Freelancer'}
+                        company={'<a href="https://www.upwork.com/fl/nhancv">Upwork Inc.</a>'}
+                        description={`
+             <p>
+                Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://www.upwork.com/fl/nhancv">https://www.upwork.com/fl/nhancv</a>
+             </p>
                         `}
                     />
                 </section>
