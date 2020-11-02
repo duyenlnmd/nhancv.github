@@ -164,9 +164,9 @@ export default class Main extends React.Component {
                 <p>JENESYS 2.0 - 2014</p>
                 <p>Agile Software Development with Scrum - 2014</p>
                 <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
-                <p><a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer - Associate</a></p>
-                <p><a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect - Associate</a></p>
-                <p><a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional</a></p>
+                <p><a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer - Associate - http://bit.ly/nhancv-dva</a></p>
+                <p><a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect - Associate - http://bit.ly/nhancv-saa</a></p>
+                <p><a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional - http://bit.ly/nhancv-sap</a></p>
               </div>
             `}
                     />
