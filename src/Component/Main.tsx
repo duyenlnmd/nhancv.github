@@ -416,10 +416,10 @@ export default class Main extends React.Component {
             `}
                         />
                         <Skill
-                            header={'Embeded'}
+                            header={'Embedded'}
                             description={`
               <p>
-                Atmel, Arduino, ARM, Raspberry Pi
+                Atmel, Arduino, ESP32, ESP8266, ARM, Raspberry Pi, NFC, BLE, iBeacon
               </p>
             `}
                         />
