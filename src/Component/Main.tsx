@@ -18,7 +18,7 @@ class Experience extends React.Component<ExperienceProps, {}> {
             <div>
                 <h5>{header}</h5>
                 <div>{title}</div>
-                <div dangerouslySetInnerHTML={{__html: company}} />
+                <div dangerouslySetInnerHTML={{__html: company}}/>
                 <div>Description:</div>
                 <div dangerouslySetInnerHTML={{__html: description}}/>
                 <div>-----</div>
@@ -75,24 +75,23 @@ export default class Main extends React.Component {
                         header={'Abstract'}
                         description={`
               <div>
-                <p>
-                  A forward-thinking man passed several positions with wide knowledge cover almost aspect of the IT field, design a solution that fulfills the information and data architecture requirements. These technologies cover the entire life cycle of design, development, testing, deployment, maintenance, performance tuning, and user support.
-                </p>
+                I am a senior developer with over 10 years of full-stack experience. <br /><br />
+                A forward-thinking man passed several positions with wide knowledge cover almost every aspect of the IT field, design a solution that fulfills the information and data architecture requirements. These technologies cover the entire life cycle of design, development, testing, deployment, maintenance, performance tuning, and user support.
+                <br />
+                <br />
                 <b>Highlights</b>
                 <br />
-                <ul>
-                  <li>Good logic thinking skill.</li>
-                  <li>Known for writing efficient, maintainable and reusable code.</li>
-                  <li>Proficient in design pattern, algorithm data structures, problem-solving and debugging.</li>
-                  <li>Eagerness to embrace scalability, reliability, and performance challenges.</li>
-                  <li>Positivity and responsibility in words, communication, and feedback.</li>
-                  <li>Time balance and creative management.</li>
-                  <li>Passion for building products that users love.</li>
-                  <li>Experienced in software design and application architectures with high security and performance optimization.</li>
-                  <li>Strong at source code management, continuous integration, and continuous deployment.</li>
-                  <li>Experienced and good knowledge of full-stack development e.g web front-end, backend-end to mobile and system.</li>
-                  <li>Experienced in modern knowledge about Machine Learning, Artificial Intelligence, and Blockchain.</li>
-                </ul>
+                ✨ Good logical thinking skills.<br />
+                ✨ Known for writing efficient, maintainable, and reusable code.<br />
+                ✨ Proficient in programming patterns and principles, algorithms, data structures, problem-solving, and debugging.<br />
+                ✨ Eagerness to embrace scalability, reliability, and performance challenges.<br />
+                ✨ Positivity and responsibility in words, communication, and feedback.<br />
+                ✨ Time balance and creative management.<br />
+                ✨ Passion for building products that users love.<br />
+                ✨ Experienced in software design and application architectures with high security and performance optimization.<br />
+                ✨ Strong at source code management, continuous integration, and continuous deployment.<br />
+                ✨ Experienced and good knowledge of full-stack development e.g web front-end, backend-end to mobile and system.<br />
+                ✨ Experienced in modern knowledge about Machine Learning, Artificial Intelligence, and Blockchain.<br />
               </div>
             `}
                     />
@@ -102,15 +101,9 @@ export default class Main extends React.Component {
                         header={'Background'}
                         description={`
               <div>
-                <p>
-                  B.Ce. (Honors) (Sept. 2010 – June. 2015): Computer Engineering, University of Information Technology, VNU-HCM, Vietnam
-                </p>
-                <div>GPA: 3.84/4 (Rank: 1/120). Thesis score: 9.7/10</div>
-                <div>Thesis: SmartHome with Zigbee network</div>
-                <br/>
-                <div>
-                  Completed the Data Science Course (Nov 26, 2018 – Jan 29, 2019), Dr Tran Anh Tuan, Department of Maths & Computer Sciences, HCMUS.
-                </div>
+                ⭐ B.Ce. (Honors) (Sept. 2010 – June. 2015): Computer Engineering, University of Information Technology, VNU-HCM, Vietnam.<br />
+                ⭐ GPA: 3.84/4 (Rank: 1/120). Thesis score: 9.7/10 with topic SmartHome with Zigbee network.<br />
+                ⭐ Completed the Data Science Course (Nov 26, 2018 – Jan 29, 2019), Dr. Tran Anh Tuan, Department of Maths & Computer Sciences, HCMUS.<br />
               </div>
             `}
                     />
@@ -120,21 +113,18 @@ export default class Main extends React.Component {
                         header={'Award'}
                         description={`
               <div>
-                <p>UIT Scholarship - 2010, 2011, 2012, 2013, 2014 - ranking Very Good</p>
-                <p>Consolation Prize in National Olympic Contest for IT Student - 2012</p>
-                <p>VNPT Scholarship 2012</p>
-                <p>Nguyen Thai Binh Scholarship 2013</p>
-                <p>POSCO ASIA Fellowship 2013</p>
-                <p>JENESYS 2.0: JICE (Japan International Cooperation Center) 2014</p>
-                <p>First Prize of UIT-ACM 2nd 2014</p>
-                <p>First Prize of “Code to 23:00” competition - 2014</p>
-                <p>
-                  Best Article Prize: Control smart home device by Infrared rays on android was public on Young Scientists
-                  Conference UIT 3rd, 2014
-                </p>
-                <p>Consolation Prize in National Olympic Contest for IT Student 2014</p>
-                <p>Students of 5 merits of Ho Chi Minh city 2014</p>
-                <p>Get highest honor of Computer Engineering Faculty in 20/06/2015</p>
+                🏆 UIT Scholarship - 2010, 2011, 2012, 2013, 2014 - ranking Very Good<br />
+                🏆 Consolation Prize in National Olympic Contest for IT Student - 2012<br />
+                🏆 VNPT Scholarship 2012<br />
+                🏆 Nguyen Thai Binh Scholarship 2013<br />
+                🏆 POSCO ASIA Fellowship 2013<br />
+                🏆 JENESYS 2.0: JICE (Japan International Cooperation Center) 2014<br />
+                🏆 First Prize of UIT-ACM 2nd 2014<br />
+                🏆 First Prize of “Code to 23:00” competition - 2014<br />
+                🏆 Best Article Prize: Control smart home device by Infrared rays on android was public on Young Scientists Conference UIT 3rd, 2014<br />
+                🏆 Consolation Prize in National Olympic Contest for IT Student 2014<br />
+                🏆 Students of 5 merits of Ho Chi Minh city 2014<br />
+                🏆 Get highest honor of Computer Engineering Faculty in 20/06/2015<br />
               </div>
             `}
                     />
@@ -144,10 +134,7 @@ export default class Main extends React.Component {
                         header={'Publication'}
                         description={`
               <div>
-                <p>
-                  Best Article Prize: Control smart home device by Infrared rays on android was public on Young Scientists
-                  Conference UIT 3rd, 2014
-                </p>
+                🏆 Best Article Prize: Control smart home device by Infrared rays on android was public on Young Scientists Conference UIT 3rd, 2014
               </div>
             `}
                     />
@@ -157,16 +144,18 @@ export default class Main extends React.Component {
                         header={'Certification'}
                         description={`
               <div>
-                <p>The 2012 ACM-ICPC Programming Contest Asia Hanoi Regional</p>
-                <p>POSCO Asia Fellowship 2013</p>
-                <p>The 2013 ACM-ICPC Programming Contest Asia Danang Regional</p>
-                <p>Habitat for Humanity International - VietNam 2014</p>
-                <p>JENESYS 2.0 - 2014</p>
-                <p>Agile Software Development with Scrum - 2014</p>
-                <p>The 2014 ACM-ICPC Programming Contest Vietnam National Round</p>
-                <p><a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer - Associate - http://bit.ly/nhancv-dva</a></p>
-                <p><a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect - Associate - http://bit.ly/nhancv-saa</a></p>
-                <p><a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional - http://bit.ly/nhancv-sap</a></p>
+                🎖 The 2012 ACM-ICPC Programming Contest Asia Hanoi Regional<br />
+                🎖 POSCO Asia Fellowship 2013<br />
+                🎖 The 2013 ACM-ICPC Programming Contest Asia Danang Regional<br />
+                🎖 Habitat for Humanity International - VietNam 2014<br />
+                🎖 JENESYS 2.0 - 2014<br />
+                🎖 Agile Software Development with Scrum - 2014<br />
+                🎖 The 2014 ACM-ICPC Programming Contest Vietnam National Round<br />
+                🎖 <a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer – Associate: http://bit.ly/nhancv-dva</a><br />
+                🎖 <a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect – Associate: http://bit.ly/nhancv-saa</a><br />
+                🎖 <a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional - http://bit.ly/nhancv-sap</a><br /> 
+                🎖 <a href="https://upwork.com/fl/nhancv">Upwork Skill Certification - Javascript Back-end Development</a><br />
+
               </div>
             `}
                     />
@@ -306,7 +295,31 @@ export default class Main extends React.Component {
                     />
                 </section>
                 <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <h2>Skills</h2>
+                    <h2>Professional Skills</h2>
+                    <div>
+                        <Skill
+                            header={'✅ FLUTTER (Dart)'}
+                            description={`
+              <p>
+                ⇾ Keywords: nft, npreferences, sqflite, cookiejar, adapting screen, intl, provider, dio, custom paint, mockito, flutter test, widget test, Bitrise, AppCenter, AWS<br />
+                ⇾ Case study: Twilio chat, WebRTC, SIP, Mux, RTMP publisher, RTMP viewer, Custom icon font, Full Firebase skills (analytics, crashlytic, firestore, cloud storage, cloud function, authentication), Rive animation, RSA, AWS S3, IAP, Stripe, BLE/iBeacon<br />
+              </p>
+            `}
+                        />
+
+                        <Skill
+                            header={'✅ NODEJS (Typescript)'}
+                            description={`
+              <p>
+                ⇾ Keywords: NestJs, MongoDB, Bull Queue (Redis), PM2, Nginx, VPS, AWS High Availability & Fault Tolerance<br />
+                ⇾ Case study: WebRTC, Web3js, RestFull, Firebase Authentication, Firebase cloud function, AWS Lambda, Socket<br />
+              </p>
+            `}
+                        />
+                    </div>
+                </section>
+                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+                    <h2>Other Skills</h2>
                     <p>
                         <i>Not just a list.</i>
                     </p>
@@ -482,36 +495,6 @@ export default class Main extends React.Component {
                     Nhan Cao
                   </a>
                 </p>
-                <p>
-                  Freelancer.com:
-                  <a href="https://www.freelancer.com/u/nhancv" target="_blank">
-                    nhancv
-                  </a>
-                </p>
-                <p>
-                  Twitter:
-                  <a href="https://twitter.com/nhancv" target="_blank">
-                    nhancv
-                  </a>
-                </p>
-                <p>
-                  Linkedin:
-                  <a href="https://www.linkedin.com/in/nhancv" target="_blank">
-                    nhancv
-                  </a>
-                </p>
-                <p>
-                  Stackoverflow:
-                  <a href="https://stackoverflow.com/cv/nhancv" target="_blank">
-                    nhan-cao
-                  </a>
-                </p>
-                <p>
-                  NpmJs:
-                  <a href="https://www.npmjs.com/~nhancv" target="_blank">
-                    ~nhancv
-                  </a>
-                </p>
               </div>
             `}
                     />
@@ -525,7 +508,7 @@ export default class Main extends React.Component {
                   Email: <a href="mailto: nhancv92@gmail.com">nhancv92@gmail.com</a>
                 </p>
                 <p>
-                  Phone: <a href="tel:+84964788440">(+84) 964 788 440</a>
+                  Skype: live:nhancv92
                 </p>
               </div>
             `}
