@@ -228,7 +228,7 @@ export default class Main extends React.Component {
                     />
                     <Experience
                         header={'27/08/2016 - 01/05/2020'}
-                        title={'R&D Team Leader, Mobile Team Manager'}
+                        title={'Mobile Team, R&D Project Manager'}
                         company={'Beesight Soft, Vietnam'}
                         description={`
              <p>
@@ -297,7 +297,7 @@ export default class Main extends React.Component {
                         `}
                     />
                     <Experience
-                        header={'11/11/2019 – 18/01/2021'}
+                        header={'15/11/2019 – 18/01/2021'}
                         title={'Co-founder, CTO'}
                         company={'Rilthot, VietNam'}
                         description={`
