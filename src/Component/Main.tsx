@@ -180,6 +180,19 @@ export default class Main extends React.Component {
                         `}
                     />
                     <Experience
+                        header={'06/10/2015 – 15/11/2019'}
+                        title={'Co-founder, CTO'}
+                        company={'Yeskone, VietNam'}
+                        description={`
+              <p>
+                Outsourcing company
+              </p>
+              <p>
+                Project: Mecsu, Hubanking, Job finder
+              </p>
+                        `}
+                    />
+                    <Experience
                         header={'01/01/2016 - 01/05/2016'}
                         title={'Software Consultant'}
                         company={'Society for Health Information Systems Programmes, India (On site)'}
@@ -198,7 +211,7 @@ export default class Main extends React.Component {
                         `}
                     />
                     <Experience
-                        header={'01/05/2016 - 01/08/2016'}
+                        header={'01/05/2016 - 05/08/2016'}
                         title={'Senior Android Developer'}
                         company={'RWD.sg, Singapore'}
                         description={`
@@ -214,24 +227,8 @@ export default class Main extends React.Component {
                         `}
                     />
                     <Experience
-                        header={'01/04/2017 - 01/01/2018'}
-                        title={'Software Consultant'}
-                        company={'Society for Health Information Systems Programmes, India (Remote)'}
-                        description={`
-             <p>
-                Provide consultancy service to HISP regarding Software Development on various projects located outside India.
-             </p>
-             <p>
-                Application
-             </p>
-                  <ul>
-                    <li>DHIS2 Android capture: Implement android project for data capture</li>
-                  </ul>
-                        `}
-                    />
-                    <Experience
                         header={'27/08/2016 - 01/05/2020'}
-                        title={'R&D Mobile'}
+                        title={'R&D Team Leader, Mobile Team Manager'}
                         company={'Beesight Soft, Vietnam'}
                         description={`
              <p>
@@ -281,6 +278,35 @@ export default class Main extends React.Component {
                     <li>Android Getogeda: Realtime game about face mask, video call, the effect on voice</li>
                     <li>Android Moblize: Social network, oil and gas tracking</li>
                   </ul>
+                        `}
+                    />
+                    <Experience
+                        header={'01/04/2017 - 01/01/2018'}
+                        title={'Software Consultant'}
+                        company={'Society for Health Information Systems Programmes, India (Remote)'}
+                        description={`
+             <p>
+                Provide consultancy service to HISP regarding Software Development on various projects located outside India.
+             </p>
+             <p>
+                Application
+             </p>
+                  <ul>
+                    <li>DHIS2 Android capture: Implement android project for data capture</li>
+                  </ul>
+                        `}
+                    />
+                    <Experience
+                        header={'11/11/2019 – 18/01/2021'}
+                        title={'Co-founder, CTO'}
+                        company={'Rilthot, VietNam'}
+                        description={`
+              <p>
+                Trading bots 
+              </p>
+              <p>
+                Project: RilCrypto, RilForex, RilBot, RilPay
+              </p>
                         `}
                     />
                     <Experience
@@ -492,7 +518,7 @@ export default class Main extends React.Component {
                 <p>
                   Upwork:
                   <a href="https://www.upwork.com/fl/nhancv" target="_blank">
-                    Nhan Cao
+                    nhancv
                   </a>
                 </p>
               </div>
@@ -509,6 +535,9 @@ export default class Main extends React.Component {
                 </p>
                 <p>
                   Skype: live:nhancv92
+                </p>
+                <p>
+                  Linkedin: nhancv
                 </p>
               </div>
             `}
