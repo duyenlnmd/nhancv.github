@@ -342,6 +342,16 @@ export default class Main extends React.Component {
               </p>
             `}
                         />
+
+                        <Skill
+                            header={'✅ SOLUTIONS'}
+                            description={`
+              <p>
+                ⇾ Keywords: Full stack application, Blockchain, NFT/DeFi project<br />
+                ⇾ Case study: ERC20 Token, TRC20 Token, Smart Contract, Application building from zero, Scaling, High Availability and Fault Tolerance, AWS solution<br />
+              </p>
+            `}
+                        />
                     </div>
                 </section>
                 <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
