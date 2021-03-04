@@ -212,7 +212,7 @@ export default class Main extends React.Component {
                     />
                     <Experience
                         header={'01/05/2016 - 05/08/2016'}
-                        title={'Senior Android Developer'}
+                        title={'Senior Mobile Developer'}
                         company={'RWD.sg, Singapore'}
                         description={`
              <p>
