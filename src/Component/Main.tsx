@@ -154,7 +154,7 @@ export default class Main extends React.Component {
                 🎖 <a href="https://www.youracclaim.com/badges/418caece-2025-4d97-ba4c-bfb7114909f9">AWS Certified Developer – Associate: http://bit.ly/nhancv-dva</a><br />
                 🎖 <a href="https://www.youracclaim.com/badges/d6024b6e-0021-45d5-81e2-cf47d3eec6f0">AWS Certified Solutions Architect – Associate: http://bit.ly/nhancv-saa</a><br />
                 🎖 <a href="https://www.youracclaim.com/badges/e6744b93-7b9a-4bbb-ad4d-e6bb79d3d591">AWS Certified Solutions Architect - Professional - http://bit.ly/nhancv-sap</a><br /> 
-                🎖 <a href="https://upwork.com/fl/nhancv">Upwork Skill Certification - Javascript Back-end Development</a><br />
+                🎖 <a href="https://upwork.nhancv.com">Upwork Skill Certification - Javascript Back-end Development</a><br />
 
               </div>
             `}
@@ -311,11 +311,11 @@ export default class Main extends React.Component {
                     />
                     <Experience
                         header={'01/05/2020 - present'}
-                        title={'Freelancer'}
-                        company={'<a href="https://www.upwork.com/fl/nhancv">Upwork Inc.</a>'}
+                        title={'Professional Freelancer'}
+                        company={'<a href="https://upwork.nhancv.com">Upwork Inc.</a>'}
                         description={`
              <p>
-                Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://www.upwork.com/fl/nhancv">https://www.upwork.com/fl/nhancv</a>
+                Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://upwork.nhancv.com">https://upwork.nhancv.com</a>
              </p>
                         `}
                     />
@@ -527,7 +527,7 @@ export default class Main extends React.Component {
                 </p>
                 <p>
                   Upwork:
-                  <a href="https://www.upwork.com/fl/nhancv" target="_blank">
+                  <a href="https://upwork.nhancv.com" target="_blank">
                     nhancv
                   </a>
                 </p>
