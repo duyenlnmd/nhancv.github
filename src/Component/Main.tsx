@@ -320,7 +320,7 @@ export default class Main extends React.Component {
                         `}
           />
           <Experience
-            header={'12/06/2020 - presentt'}
+            header={'12/06/2020 - present'}
             title={'Expert Flutter'}
             company={'Post-PC Labs, LLC, Mountain View, United States'}
             description={`
