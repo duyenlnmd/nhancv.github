@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// @nhancv: Scroll animation
+import './Resource/aos.css'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,8 +15,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// @nhancv: Scroll animation
-import './Resource/aos.css'
 const AOS = require('aos')
 AOS.init()
 

@@ -4,76 +4,76 @@ import './Main.scss'
 
 // @nhancv: Experience Block
 interface ExperienceProps {
-    header: string
-    title: string
-    company: string
-    description: string
+  header: string
+  title: string
+  company: string
+  description: string
 }
 
 class Experience extends React.Component<ExperienceProps, {}> {
-    render() {
-        let {header, title, company, description} = this.props;
+  render() {
+    let {header, title, company, description} = this.props;
 
-        return (
-            <div>
-                <h5>{header}</h5>
-                <div>{title}</div>
-                <div dangerouslySetInnerHTML={{__html: company}}/>
-                <div>Description:</div>
-                <div dangerouslySetInnerHTML={{__html: description}}/>
-                <div>-----</div>
-            </div>
-        )
-    }
+    return (
+      <div>
+        <h5>{header}</h5>
+        <div>{title}</div>
+        <div dangerouslySetInnerHTML={{__html: company}}/>
+        <div>Description:</div>
+        <div dangerouslySetInnerHTML={{__html: description}}/>
+        <div>-----</div>
+      </div>
+    )
+  }
 }
 
 // @nhancv: Skill block
 interface SkillProps {
-    header: string
-    description: string
+  header: string
+  description: string
 }
 
 class Skill extends React.Component<SkillProps, {}> {
-    render() {
-        let {header, description} = this.props;
+  render() {
+    let {header, description} = this.props;
 
-        return (
-            <div>
-                <h5>{header}</h5>
-                <div dangerouslySetInnerHTML={{__html: description}}/>
-                <div>-----</div>
-            </div>
-        )
-    }
+    return (
+      <div>
+        <h5>{header}</h5>
+        <div dangerouslySetInnerHTML={{__html: description}}/>
+        <div>-----</div>
+      </div>
+    )
+  }
 }
 
 // @nhancv: Simple block
 interface SimpleProps {
-    header: string
-    description: string
+  header: string
+  description: string
 }
 
 class Simple extends React.Component<SimpleProps, {}> {
-    render() {
-        let {header, description} = this.props;
+  render() {
+    let {header, description} = this.props;
 
-        return (
-            <div>
-                <h2>{header}</h2>
-                <div dangerouslySetInnerHTML={{__html: description}}/>
-            </div>
-        )
-    }
+    return (
+      <div>
+        <h2>{header}</h2>
+        <div dangerouslySetInnerHTML={{__html: description}}/>
+      </div>
+    )
+  }
 }
 
 export default class Main extends React.Component {
-    render() {
-        return (
-            <Container className="App-body">
-                <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
-                    <Simple
-                        header={'Abstract'}
-                        description={`
+  render() {
+    return (
+      <Container className="App-body">
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
+          <Simple
+            header={'Abstract'}
+            description={`
               <div>
                 I am a senior developer with over 10 years of full-stack experience. <br /><br />
                 A forward-thinking man passed several positions with wide knowledge cover almost every aspect of the IT field, design a solution that fulfills the information and data architecture requirements. These technologies cover the entire life cycle of design, development, testing, deployment, maintenance, performance tuning, and user support.
@@ -94,24 +94,24 @@ export default class Main extends React.Component {
                 ✨ Experienced in modern knowledge about Machine Learning, Artificial Intelligence, and Blockchain.<br />
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <Simple
-                        header={'Background'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <Simple
+            header={'Background'}
+            description={`
               <div>
                 ⭐ B.Ce. (Honors) (Sept. 2010 – June. 2015): Computer Engineering, University of Information Technology, VNU-HCM, Vietnam.<br />
                 ⭐ GPA: 3.84/4 (Rank: 1/120). Thesis score: 9.7/10 with topic SmartHome with Zigbee network.<br />
                 ⭐ Completed the Data Science Course (Nov 26, 2018 – Jan 29, 2019), Dr. Tran Anh Tuan, Department of Maths & Computer Sciences, HCMUS.<br />
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <Simple
-                        header={'Award'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <Simple
+            header={'Award'}
+            description={`
               <div>
                 🏆 UIT Scholarship - 2010, 2011, 2012, 2013, 2014 - ranking Very Good<br />
                 🏆 Consolation Prize in National Olympic Contest for IT Student - 2012<br />
@@ -127,22 +127,22 @@ export default class Main extends React.Component {
                 🏆 Get highest honor of Computer Engineering Faculty in 20/06/2015<br />
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
-                    <Simple
-                        header={'Publication'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
+          <Simple
+            header={'Publication'}
+            description={`
               <div>
                 🏆 Best Article Prize: Control smart home device by Infrared rays on android was public on Young Scientists Conference UIT 3rd, 2014
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
-                    <Simple
-                        header={'Certification'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
+          <Simple
+            header={'Certification'}
+            description={`
               <div>
                 🎖 The 2012 ACM-ICPC Programming Contest Asia Hanoi Regional<br />
                 🎖 POSCO Asia Fellowship 2013<br />
@@ -158,15 +158,15 @@ export default class Main extends React.Component {
 
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <h2>Experience</h2>
-                    <Experience
-                        header={'24/02/2015 – 31/12/2015'}
-                        title={'Android Developer'}
-                        company={'Left Coast Logic, Vietnam'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <h2>Experience</h2>
+          <Experience
+            header={'24/02/2015 – 31/12/2015'}
+            title={'Android Developer'}
+            company={'Left Coast Logic, Vietnam'}
+            description={`
               <p>
                 Develop and maintain the E-commerce products for Japan market on Android mobile and tablet: Loyalty Program, Lottery, Save or Exchange Point, Payment, NFC, BLE/Beacon
               </p>
@@ -178,12 +178,12 @@ export default class Main extends React.Component {
                     <li>Android user: This application installed on a phone for the user to book and savepoint</li>
                   </ul>
                         `}
-                    />
-                    <Experience
-                        header={'06/10/2015 – 15/11/2019'}
-                        title={'Co-founder, CTO'}
-                        company={'Yeskone, Vietnam'}
-                        description={`
+          />
+          <Experience
+            header={'06/10/2015 – 15/11/2019'}
+            title={'Co-founder, CTO'}
+            company={'Yeskone, Vietnam'}
+            description={`
               <p>
                 Outsourcing company
               </p>
@@ -191,12 +191,12 @@ export default class Main extends React.Component {
                 Project: Mecsu, Hubanking, Job finder
               </p>
                         `}
-                    />
-                    <Experience
-                        header={'01/01/2016 - 01/05/2016'}
-                        title={'Software Consultant'}
-                        company={'Society for Health Information Systems Programmes, India (On site)'}
-                        description={`
+          />
+          <Experience
+            header={'01/01/2016 - 01/05/2016'}
+            title={'Software Consultant'}
+            company={'Society for Health Information Systems Programmes, India (On site)'}
+            description={`
               <p>
                 Supervisor, technical support, development, and technical quality assessment, improve the development process.
               </p>
@@ -209,12 +209,12 @@ export default class Main extends React.Component {
                     <li>DHIS2 Android capture: Implement android project for data capture</li>
                   </ul>
                         `}
-                    />
-                    <Experience
-                        header={'01/05/2016 - 05/08/2016'}
-                        title={'Senior Mobile Developer'}
-                        company={'RWD.sg, Singapore'}
-                        description={`
+          />
+          <Experience
+            header={'01/05/2016 - 05/08/2016'}
+            title={'Senior Mobile Developer'}
+            company={'RWD.sg, Singapore'}
+            description={`
              <p>
                 Develop an android application to get cheapest price on the market
              </p>
@@ -225,12 +225,12 @@ export default class Main extends React.Component {
                     <li>Android wise price: Get cheapest price on the market using almost Amazon web services such as DynamoDB, S3, SES, SNS, Mobile Hub, Cognito and Lamda</li>
                   </ul>
                         `}
-                    />
-                    <Experience
-                        header={'27/08/2016 - 01/05/2020'}
-                        title={'Mobile Team, R&D Project Manager'}
-                        company={'Beesight Soft, Vietnam'}
-                        description={`
+          />
+          <Experience
+            header={'27/08/2016 - 01/05/2020'}
+            title={'Mobile Team, R&D Project Manager'}
+            company={'Beesight Soft, Vietnam'}
+            description={`
              <p>
                 Team leader, project lead, scrum master, technical support & documentation, research, and development.
              </p>
@@ -279,12 +279,12 @@ export default class Main extends React.Component {
                     <li>Android Moblize: Social network, oil and gas tracking</li>
                   </ul>
                         `}
-                    />
-                    <Experience
-                        header={'01/04/2017 - 01/01/2018'}
-                        title={'Software Consultant'}
-                        company={'Society for Health Information Systems Programmes, India (Remote)'}
-                        description={`
+          />
+          <Experience
+            header={'01/04/2017 - 01/01/2018'}
+            title={'Software Consultant'}
+            company={'Society for Health Information Systems Programmes, India (Remote)'}
+            description={`
              <p>
                 Provide consultancy service to HISP regarding Software Development on various projects located outside India.
              </p>
@@ -295,12 +295,12 @@ export default class Main extends React.Component {
                     <li>DHIS2 Android capture: Implement android project for data capture</li>
                   </ul>
                         `}
-                    />
-                    <Experience
-                        header={'15/11/2019 – 18/01/2021'}
-                        title={'Co-founder, CTO'}
-                        company={'Rilthot, Vietnam'}
-                        description={`
+          />
+          <Experience
+            header={'15/11/2019 – 18/01/2021'}
+            title={'Co-founder, CTO'}
+            company={'Rilthot, Vietnam'}
+            description={`
               <p>
                 Trading bots 
               </p>
@@ -308,62 +308,92 @@ export default class Main extends React.Component {
                 Project: RilCrypto, RilForex, RilBot, RilPay
               </p>
                         `}
-                    />
-                    <Experience
-                        header={'01/05/2020 - present'}
-                        title={'Professional Freelancer'}
-                        company={'<a href="https://upwork.nhancv.com">Upwork Inc.</a>'}
-                        description={`
+          />
+          <Experience
+            header={'01/05/2020 - present'}
+            title={'Professional Freelancer'}
+            company={'<a href="https://upwork.nhancv.com">Upwork Inc.</a>'}
+            description={`
              <p>
-                Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://upwork.nhancv.com">https://upwork.nhancv.com</a>
+                Expert Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://upwork.nhancv.com">https://upwork.nhancv.com</a>
              </p>
                         `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <h2>Professional Skills</h2>
-                    <div>
-                        <Skill
-                            header={'✅ FLUTTER (Dart)'}
-                            description={`
+          />
+          <Experience
+            header={'12/06/2020 - presentt'}
+            title={'Expert Flutter'}
+            company={'Post-PC Labs, LLC, Mountain View, United States'}
+            description={`
+             <p>
+                Time management apps 
+             </p>
+                        `}
+          />
+          <Experience
+            header={'18/12/2020 - 16/07/2021'}
+            title={'Expert Flutter'}
+            company={'64 Robots, Baltimore, Maryland, United States'}
+            description={`
+             <p>
+                Livestream apps 
+             </p>
+                        `}
+          />
+          <Experience
+            header={'01/08/2021 - present'}
+            title={'Chief Technology Officer'}
+            company={'Skrice Studios, Hanoi, Vietnam'}
+            description={`
+             <p>
+                Skrice Studios is focused on delivering the best quality games in the Blockchain space.  
+             </p>
+                        `}
+          />
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <h2>Professional Skills</h2>
+          <div>
+            <Skill
+              header={'✅ FLUTTER (Dart)'}
+              description={`
               <p>
                 ⇾ Keywords: nft, npreferences, sqflite, cookiejar, adapting screen, intl, provider, dio, custom paint, mockito, flutter test, widget test, Bitrise, AppCenter, AWS<br />
                 ⇾ Case study: Twilio chat, WebRTC, SIP, Mux, RTMP publisher, RTMP viewer, Custom icon font, Full Firebase skills (analytics, crashlytic, firestore, cloud storage, cloud function, authentication), Rive animation, RSA, AWS S3, IAP, Stripe, BLE/iBeacon<br />
               </p>
             `}
-                        />
+            />
 
-                        <Skill
-                            header={'✅ NODEJS (Typescript)'}
-                            description={`
+            <Skill
+              header={'✅ NODEJS (Typescript)'}
+              description={`
               <p>
                 ⇾ Keywords: NestJs, MongoDB, Bull Queue (Redis), PM2, Nginx, VPS, AWS High Availability & Fault Tolerance<br />
                 ⇾ Case study: WebRTC, Web3js, RestFull, Firebase Authentication, Firebase cloud function, AWS Lambda, Socket<br />
               </p>
             `}
-                        />
+            />
 
-                        <Skill
-                            header={'✅ SOLUTIONS'}
-                            description={`
+            <Skill
+              header={'✅ BLOCKCHAIN SOLUTIONS'}
+              description={`
               <p>
-                ⇾ Keywords: Full stack application, Blockchain, NFT/DeFi project<br />
-                ⇾ Case study: ERC20 Token, TRC20 Token, Smart Contract, Application building from zero, Scaling, High Availability and Fault Tolerance, AWS solution<br />
+                ⇾ Keywords: Full stack application, Blockchain, ERC721, ERC1155, ERC165, EIP712, Truffle, Hardhat, Unit test, Openzepplin, Upgradeable, Ganache, BSC, Ethereum, Polygon, Fantom, Heco<br />
+                ⇾ Case study: ERC20 Token, Token buyback/reflection/reward, TRC20 Token, Smart Contract, NFT/DeFi, Application building from zero, Scaling, High Availability and Fault Tolerance, AWS solution, Marketplace, Locking, Staking pool, ICO and launch pad, Governance voting, Loan.<br />
               </p>
             `}
-                        />
-                    </div>
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <h2>Other Skills</h2>
-                    <p>
-                        <i>Not just a list.</i>
-                    </p>
+            />
+          </div>
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <h2>Other Skills</h2>
+          <p>
+            <i>Not just a list.</i>
+          </p>
 
-                    <div>
-                        <Skill
-                            header={'Mobile'}
-                            description={`
+          <div>
+            <Skill
+              header={'Mobile'}
+              description={`
               <p>
                 Native Android: Gradle Groovy, Kotlin, Java. MVP model, Dagger2, Butterknife, Annotations, Event bus, RxAndroid/RxJava, jUnit, Espresso, Picasso, Gson, Retrofit2, Realm, GGMaps, FB/G+/Twitter Sdk, Fabric, Mint, Log entries, BLE, NFC, Amazon web services
               </p>
@@ -376,10 +406,10 @@ export default class Main extends React.Component {
                     <li>Flutter: Dart, Material Design</li>
                   </ul>
             `}
-                        />
-                        <Skill
-                            header={'Web'}
-                            description={`
+            />
+            <Skill
+              header={'Web'}
+              description={`
               <p>
                 Server: PHP (Laravel/Lumen), Java EE, C Embeded, XMPP (Ejabberd, Smack), NodeJs (ExpressJs, WebRTC, Kurento, Socket.io/Websocket), Redis, HAProxy, Spark, Hadoop, Kafka, ZeroMQ
               </p>
@@ -387,10 +417,10 @@ export default class Main extends React.Component {
                 Frontend: Angular, ReactJS, Bootstrap, jQuery, TypeScript, Html, Css, GraphQL, Wordpress, Magento, Gulp, Bower, Scss/Less, QUnitJs
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Blockchain'}
-                            description={`
+            />
+            <Skill
+              header={'Blockchain'}
+              description={`
               <p>
                 Ethereum: SmartContract, ERC20 Token, ICO CrowdSale (Solidity + Web3)
               </p>
@@ -407,10 +437,10 @@ export default class Main extends React.Component {
                 Hyperledger Iroha: Android app, Javascript wallet and Docker
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Bot'}
-                            description={`
+            />
+            <Skill
+              header={'Bot'}
+              description={`
               <p>
                 Wiki bot: use Dialogflow, NLP
               </p>
@@ -436,10 +466,10 @@ export default class Main extends React.Component {
                 Intermarket spread: Bot auto-detect intermarket spread and make an order to take a small profit.
               </p>
             `}
-                        />
-                        <Skill
-                            header={'AI'}
-                            description={`
+            />
+            <Skill
+              header={'AI'}
+              description={`
               <p>
                 Statistic, Data Mining, Machine learning and Deep learning, NPL, Bot
               </p>
@@ -447,65 +477,65 @@ export default class Main extends React.Component {
                 Env & tool: Python, Colab, Nteract, Kaggle, Orange3, OpenCV, Tensorflow, Dialogflow, Dlib, Firebase ML
               </p>
             `}
-                        />
-                        <Skill
-                            header={'OS/System'}
-                            description={`
+            />
+            <Skill
+              header={'OS/System'}
+              description={`
               <p>
                 macOS, Linux, Windows, Nginx, Apache, KVM virtualization with oVirt
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Database'}
-                            description={`
+            />
+            <Skill
+              header={'Database'}
+              description={`
               <p>
                 MySql, Sql Server, Sqlite, Realm, Postgres, DynamoDb, MongoDB
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Embedded'}
-                            description={`
+            />
+            <Skill
+              header={'Embedded'}
+              description={`
               <p>
                 Atmel, Arduino, ESP32, ESP8266, ARM, Raspberry Pi, NFC, BLE, iBeacon
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Version control'}
-                            description={`
+            />
+            <Skill
+              header={'Version control'}
+              description={`
               <p>
                 Master of the Git: GitHub, GitLab, Bitbucket
               </p>
             `}
-                        />
-                        <Skill
-                            header={'Others'}
-                            description={`
+            />
+            <Skill
+              header={'Others'}
+              description={`
               <p>
                 Teamwork PM, Scrumdesk, Redmine, JIRA, Sketch, PS, Zeplin, Jenkins, CircleCI, Google Cloud, Unity AR (ARKit, Vuforia), Tsung
               </p>
             `}
-                        />
-                    </div>
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <Simple
-                        header={'Hobby'}
-                        description={`
+            />
+          </div>
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <Simple
+            header={'Hobby'}
+            description={`
               <div>
                 <p>Algorithm</p>
                 <p>Read IT books</p>
                 <p>Your challenges</p>
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
-                    <Simple
-                        header={'Social'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
+          <Simple
+            header={'Social'}
+            description={`
               <div>
                 <p>
                   Blog:
@@ -533,12 +563,12 @@ export default class Main extends React.Component {
                 </p>
               </div>
             `}
-                    />
-                </section>
-                <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
-                    <Simple
-                        header={'Contact'}
-                        description={`
+          />
+        </section>
+        <section className="App-section" data-aos="fade-up" data-aos-duration="4000">
+          <Simple
+            header={'Contact'}
+            description={`
               <div>
                 <p>
                   Email: <a href="mailto: nhancv92@gmail.com">nhancv92@gmail.com</a>
@@ -551,9 +581,9 @@ export default class Main extends React.Component {
                 </p>
               </div>
             `}
-                    />
-                </section>
-            </Container>
-        )
-    }
+          />
+        </section>
+      </Container>
+    )
+  }
 }

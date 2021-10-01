@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container } from 'reactstrap'
+import {Container} from 'reactstrap'
 import './Footer.scss'
 
 export default class Footer extends React.Component {
@@ -8,11 +8,11 @@ export default class Footer extends React.Component {
       <Container>
         <footer className="App-footer">
           <div>
-            <br />
+            <br/>
             <small>---- @2021 Nhan Cao ----</small>
-            <br />
+            <br/>
           </div>
-          <br />
+          <br/>
           <div className="App-products">
             /
             <a href="/product/order/" target="_blank">

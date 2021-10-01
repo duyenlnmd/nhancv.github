@@ -1,14 +1,14 @@
 import * as React from 'react'
-import { Footer, Header, Main } from './Component'
+import {Footer, Header, Main} from './Component'
 import './App.scss'
 
 export default class App extends React.Component {
   render() {
     return (
       <div data-aos="fade-up" data-aos-duration="500">
-        <Header />
-        <Main />
-        <Footer />
+        <Header/>
+        <Main/>
+        <Footer/>
       </div>
     )
   }
