@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Footer, Header, Main } from './Component'
-import './App.css'
+import './App.scss'
 
 export default class App extends React.Component {
   render() {

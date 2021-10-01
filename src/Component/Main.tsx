@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {Container} from 'reactstrap'
-import './Main.css'
+import './Main.scss'
 
 // @nhancv: Experience Block
 interface ExperienceProps {
@@ -147,7 +147,7 @@ export default class Main extends React.Component {
                 🎖 The 2012 ACM-ICPC Programming Contest Asia Hanoi Regional<br />
                 🎖 POSCO Asia Fellowship 2013<br />
                 🎖 The 2013 ACM-ICPC Programming Contest Asia Danang Regional<br />
-                🎖 Habitat for Humanity International - VietNam 2014<br />
+                🎖 Habitat for Humanity International - Vietnam 2014<br />
                 🎖 JENESYS 2.0 - 2014<br />
                 🎖 Agile Software Development with Scrum - 2014<br />
                 🎖 The 2014 ACM-ICPC Programming Contest Vietnam National Round<br />
@@ -165,7 +165,7 @@ export default class Main extends React.Component {
                     <Experience
                         header={'24/02/2015 – 31/12/2015'}
                         title={'Android Developer'}
-                        company={'Left Coast Logic, VietNam'}
+                        company={'Left Coast Logic, Vietnam'}
                         description={`
               <p>
                 Develop and maintain the E-commerce products for Japan market on Android mobile and tablet: Loyalty Program, Lottery, Save or Exchange Point, Payment, NFC, BLE/Beacon
@@ -182,7 +182,7 @@ export default class Main extends React.Component {
                     <Experience
                         header={'06/10/2015 – 15/11/2019'}
                         title={'Co-founder, CTO'}
-                        company={'Yeskone, VietNam'}
+                        company={'Yeskone, Vietnam'}
                         description={`
               <p>
                 Outsourcing company
@@ -299,7 +299,7 @@ export default class Main extends React.Component {
                     <Experience
                         header={'15/11/2019 – 18/01/2021'}
                         title={'Co-founder, CTO'}
-                        company={'Rilthot, VietNam'}
+                        company={'Rilthot, Vietnam'}
                         description={`
               <p>
                 Trading bots 
