@@ -310,16 +310,6 @@ export default class Main extends React.Component {
                         `}
           />
           <Experience
-            header={'01/05/2020 - present'}
-            title={'Professional Freelancer'}
-            company={'<a href="https://upwork.nhancv.com">Upwork Inc.</a>'}
-            description={`
-             <p>
-                Expert Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://upwork.nhancv.com">https://upwork.nhancv.com</a>
-             </p>
-                        `}
-          />
-          <Experience
             header={'12/06/2020 - present'}
             title={'Expert Flutter'}
             company={'Post-PC Labs, LLC, Mountain View, United States'}
@@ -340,12 +330,12 @@ export default class Main extends React.Component {
                         `}
           />
           <Experience
-            header={'01/08/2021 - present'}
-            title={'Chief Technology Officer'}
-            company={'Skrice Studios, Hanoi, Vietnam'}
+            header={'01/05/2020 - present'}
+            title={'Professional Freelancer'}
+            company={'<a href="https://upwork.nhancv.com">Upwork Inc.</a>'}
             description={`
              <p>
-                Skrice Studios is focused on delivering the best quality games in the Blockchain space.  
+                Expert Mobility Architect - Flutter, React Native Team Up With AWS. <a href="https://upwork.nhancv.com">https://upwork.nhancv.com</a>
              </p>
                         `}
           />
