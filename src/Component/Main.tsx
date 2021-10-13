@@ -339,12 +339,32 @@ export default class Main extends React.Component {
              </p>
                         `}
           />
+          <Experience
+            header={'01/10/2021 - present'}
+            title={'Chief Technology Officer'}
+            company={'<a href="https://www.linkedin.com/company/skrice-studios">Skrice Studios, Hanoi, Vietnam</a>'}
+            description={`
+             <p>
+                Skrice Studios is focused on delivering the best quality games in the Blockchain space.
+             </p>
+                        `}
+          />
         </section>
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Professional Skills</h2>
           <div>
             <Skill
-              header={'✅ FLUTTER (Dart)'}
+              header={'✅ EXPERT BLOCKCHAIN'}
+              description={`
+              <p>
+                ⇾ Keywords: Full stack application, Blockchain, ERC721, ERC1155, ERC165, EIP712, Truffle, Hardhat, Unit test, Openzepplin, Upgradeable, Ganache, BSC, Ethereum, Polygon, Fantom, Heco, Hyperledger<br />
+                ⇾ Case study: ERC20 Token, Token buyback/reflection/reward, TRC20 Token, Smart Contract, NFT/DeFi, Application building from zero, Scaling, High Availability and Fault Tolerance, AWS solution, Marketplace, Locking, Staking pool, ICO and launch pad, Governance voting, Loan, Medical testing<br />
+              </p>
+            `}
+            />
+
+            <Skill
+              header={'✅ EXPERT MOBILE ARCHITECT | FLUTTER (Dart)'}
               description={`
               <p>
                 ⇾ Keywords: nft, npreferences, sqflite, cookiejar, adapting screen, intl, provider, dio, custom paint, mockito, flutter test, widget test, Bitrise, AppCenter, AWS<br />
@@ -354,24 +374,15 @@ export default class Main extends React.Component {
             />
 
             <Skill
-              header={'✅ NODEJS (Typescript)'}
+              header={'✅ CLOUD SOLUTIONS AND BACKEND NODEJS (Typescript)'}
               description={`
               <p>
-                ⇾ Keywords: NestJs, MongoDB, Bull Queue (Redis), PM2, Nginx, VPS, AWS High Availability & Fault Tolerance<br />
+                ⇾ Keywords: SA Professional, DVA, CF, NestJs, MongoDB, Bull Queue (Redis), PM2, Nginx, VPS, AWS High Availability & Fault Tolerance<br />
                 ⇾ Case study: WebRTC, Web3js, RestFull, Firebase Authentication, Firebase cloud function, AWS Lambda, Socket<br />
               </p>
             `}
             />
 
-            <Skill
-              header={'✅ BLOCKCHAIN SOLUTIONS'}
-              description={`
-              <p>
-                ⇾ Keywords: Full stack application, Blockchain, ERC721, ERC1155, ERC165, EIP712, Truffle, Hardhat, Unit test, Openzepplin, Upgradeable, Ganache, BSC, Ethereum, Polygon, Fantom, Heco<br />
-                ⇾ Case study: ERC20 Token, Token buyback/reflection/reward, TRC20 Token, Smart Contract, NFT/DeFi, Application building from zero, Scaling, High Availability and Fault Tolerance, AWS solution, Marketplace, Locking, Staking pool, ICO and launch pad, Governance voting, Loan.<br />
-              </p>
-            `}
-            />
           </div>
         </section>
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
