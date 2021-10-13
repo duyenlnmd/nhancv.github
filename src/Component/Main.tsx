@@ -39,9 +39,9 @@ class Skill extends React.Component<SkillProps, {}> {
 
     return (
       <div>
+        <br/>
         <h5>{header}</h5>
         <div dangerouslySetInnerHTML={{__html: description}}/>
-        <div>-----</div>
       </div>
     )
   }
@@ -353,6 +353,7 @@ export default class Main extends React.Component {
         <section className="App-section" data-aos="fade-right" data-aos-duration="4000">
           <h2>Professional Skills</h2>
           <div>
+
             <Skill
               header={'✅ EXPERT BLOCKCHAIN'}
               description={`
