@@ -75,7 +75,7 @@ export default class Main extends React.Component {
             header={'Abstract'}
             description={`
               <div>
-                I am a senior developer with over 10 years of full-stack experience. <br /><br />
+                I am a Solutions Architect with over 10 years of full-stack experience. <br /><br />
                 A forward-thinking man passed several positions with wide knowledge cover almost every aspect of the IT field, design a solution that fulfills the information and data architecture requirements. These technologies cover the entire life cycle of design, development, testing, deployment, maintenance, performance tuning, and user support.
                 <br />
                 <br />
